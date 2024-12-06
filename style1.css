@@ -73,24 +73,11 @@ nav li a{
   position: relative;
 
 }
-nav li a::after{
-  content:"";
-  position: absolute;
-  top:0;
-  left: 0;
-  z-index:-1;
-  height:100%;
-  width: 100%;
-  background-color:#4682B4;
-  
-  transition:  500ms ease-out ;
-  transform: scaleX(0);
-  transform-origin: left;
+nav li a:hover{
+  color: #3d9cc2;
 }
-nav li a:hover::after {
-  transform: scaleX(1);
-  transform-origin: left ;
-}
+
+
 
 nav button a{
   color:#002147;
