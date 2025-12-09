@@ -361,10 +361,6 @@ header {
  
  border: solid 1px;
  position: relative;
-
- animation: slidelift  linear;
- animation-timeline: view();
- animation-range: entry 0% cover 25%;
 }
 
 .h-svg{
@@ -395,9 +391,6 @@ header {
   border: solid 1px #333;
 
   position: relative;
-  animation: slidelift  linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 25%;
 }
 .Education>svg{
   fill: #4682B4;
@@ -459,11 +452,6 @@ header {
   
   position: relative;
   border: 1px solid #333;
-
-  animation: slidelift  linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 25%;
-  
 }
 .Experience>svg{
   fill: #4682B4;
@@ -500,11 +488,6 @@ header {
 .Skills{
   flex-basis:55%;
   border: 1px solid ;
-
-  animation: slidelift linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 25%;
-  
 }
 .Skills>svg{
   fill: #4682B4;
